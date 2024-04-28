@@ -1,12 +1,11 @@
 #please give inputs only in CAPSLOCK
 print("Thank you for choosing Python Pizza Deliveries!\n")
 print("What size pizza do you want? 'S', 'M', or 'L'\n")
-size = input()  # What size pizza do you want? "S", "M", or "L"
+size = input()
 print("Do you want pepperoni? 'Y' or 'N'\n")
-add_pepperoni = input()  # Do you want pepperoni? "Y"
-extra_cheese = input()  # Do you want extra cheese? "Y" or "N"
+add_pepperoni = input()  
+extra_cheese = input()  
 
-# Your code below this line 👇
 bill = 0
 if size == "S":
   bill += 15
