@@ -4,5 +4,15 @@ random_integer = random.randint(1,10)
 print(random_integer)
 # print(my_module.pi)
 
-random_float = random.random()
+random_float = random.random() * 5 #gives random number from 0-9
 print(random_float)
+
+#love score calculator (but its totally random)
+love_score = random.randint(1,100)
+print(f"Your love score is {love_score}")
+
+while(love_score<50):
+    print(f"Your love score is {love_score}")
+    love_score = random.randint(1,100)
+
+
